@@ -1,0 +1,35 @@
+# Yerel ve büyük veri dosyaları
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# Veri gölü ve akış checkpoint çıktıları
+data/
+checkpoints/
+warehouse/
+spark-warehouse/
+metastore_db/
+*.parquet
+*.parquet.crc
+*.delta
+*.orc
+
+# Derleme / geçici çıktı
+build/
+dist/
+tmp/
+temp/
+
+# kanit/ dizinindeki küçük deney kanıtları, CSV ve PNG dosyalarını saklayın.
